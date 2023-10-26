@@ -32,7 +32,6 @@
 }
 
 .container-logos {
-    max-width: 2000px;
     margin: 0 auto;
     width: 100%;
     background-color: dodgerblue;
@@ -97,8 +96,14 @@
     width: calc(100% / 3 - 20px);
 }
 
+.col-17 {
+    width: 17%;
+}
+
 .col-33-nogap {
     width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content-header {
@@ -125,6 +130,12 @@
 
 .border {
     border: 1px dashed black;
+}
+
+.square {
+    background-color: coral;
+    width: 100%;
+    height: calc(66.69vw / 4);
 }
 
 
