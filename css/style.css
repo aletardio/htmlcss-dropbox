@@ -16,6 +16,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1 {
+    font-size: 80px;
+}
+
 .logo {
     padding-right: 15px;
 }
@@ -42,16 +46,38 @@ body {
     align-items: center;
 }
 
-.btn-start {
+.btn-start, .btn-start-try  {
     background-color: #0561FF;
     color: white;
     padding: 5px;
 }
 
 .btn-start:hover {
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: 1px solid #0561FF;
+}
+
+.btn-start-try:hover {
+    background-color: white;
+    color: #0561FF;
+}
+
+.text-height {
+    padding-top: 20px;
+}
+
+.button-space {
+    padding: 10px;
+}
+
+img {
+    width: 85%;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
 }
 
 .font-white {
@@ -78,6 +104,14 @@ li {
 a {
     padding: 0 15px;
     text-decoration: none;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.space {
+    line-height: 20px;
 }
 
 .container-header {
@@ -125,7 +159,7 @@ a {
 
 .bg-lightgrey{
     background-color: lightgray;
-    padding: 20px 0;
+    padding: 100px 0;
 }
 
 .bg-black {
@@ -161,6 +195,10 @@ a {
     width: 100%;
 }
 
+.col-70 {
+    width: 70%;
+}
+
 .col-60 {
     width: 60%;
 }
@@ -175,6 +213,10 @@ a {
 
 .col-33 {
     width: calc(100% / 3 - 20px);
+}
+
+.col-30 {
+    width: 30%;
 }
 
 .col-20 {
