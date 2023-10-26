@@ -59,6 +59,10 @@
     background-color: black;
 }
 
+.bg-red {
+    background-color: rgb(241, 109, 109);
+}
+
 .row {
     display: flex;
     width: 100%;
