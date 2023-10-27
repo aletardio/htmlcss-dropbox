@@ -380,22 +380,59 @@ a {
 .square {
     width: 50%;
     height: calc(100vw / 6);
+    position: relative;
 }
 
-.red {
-    background-color: red;
+.sq-color {
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #A2D39A;
 }
 
-.blue {
-    background-color: blue;
+.logos {
+    width: 50%;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
-.yellow {
-    background-color: yellow;
+.design-it {
+    background-color: #D2E9CD;
 }
 
-.green {
-    background-color: green;
+.asu {
+    background-color: #61092B;
+}
+
+.uf-florida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1B1B;
+}
+
+.wbr {
+    background-color: #D5011E;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonely-planet {
+    background-color: #0D2481;
+}
+
+.clear-channel {
+    background-color: #FFD82F;
 }
 
 .radio {
