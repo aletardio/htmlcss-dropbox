@@ -39,8 +39,16 @@ ul {
 
 .btn-try-card {
     background-color: #0561FF;
-    border: #0561FF;
+    border: 1px solid #0561FF;
     color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-try-card:hover{
+    background-color: #fff;
+    border: 1px solid #0561FF;
+    color: #0561FF;
     padding: 10px;
     text-align: center;
 }
