@@ -340,7 +340,10 @@ a {
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
+
+
 
 .content-header {
     height: 60px;
@@ -435,6 +438,24 @@ a {
     background-color: #FFD82F;
 }
 
+.bg-grey {
+    background-color: #F5F5F5;
+}
+
+.logomain {
+    width: 50%;
+    position: absolute;
+}
+
+.padding-logomain {
+    padding: 30px;
+}
+
+.border-bottom-logomain {
+    border-bottom: 1px solid red;
+    z-index: 1;
+}
+
 .radio {
     height: 30px;
     width: 30px;
@@ -474,4 +495,5 @@ a {
 .img-partner, .img-db-business {
     width: 100%;
 }
+
 
