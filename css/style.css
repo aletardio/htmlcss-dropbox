@@ -421,4 +421,26 @@ a {
     right: 20px;
 }
 
+.img-partner {
+    width: 100%;
+}
 
+.padding-img-partner {
+    padding: 120px 0;
+}
+
+.padding-text-img-partner {
+    padding: 20px 20px;
+}
+
+.btn-search-partner {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn-search-partner:hover {
+    background-color: black;
+    border: border: 1px solid black;
+    color: white;
+}
