@@ -116,6 +116,22 @@ a {
     font-size: 16px;
 }
 
+.center {
+    text-align: center;
+}
+
+.padding-text {
+    padding: 10px 0;
+}
+
+.border-lightgrey {
+    border: 1px solid lightgrey;
+}
+
+.border-bottom {
+    border-bottom: 1px solid lightgrey;
+}
+
 .space {
     line-height: 20px;
 }
