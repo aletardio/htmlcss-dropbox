@@ -20,6 +20,33 @@ h1 {
     font-size: 80px;
 }
 
+h3 {
+    font-size: 50px;
+}
+
+img {
+    width: 85%;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+}
+
+ul { 
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    padding: 0 15px;
+    text-decoration: none;
+}
+
 .logo {
     padding-right: 15px;
 }
@@ -71,14 +98,6 @@ h1 {
     padding: 10px;
 }
 
-img {
-    width: 85%;
-}
-
-button {
-    margin-top: 20px;
-    border: none;
-}
 
 .font-white {
     color: white;
@@ -92,19 +111,6 @@ button {
     color: black;
 }
 
-ul { 
-    display: flex;
-    flex-direction: row;
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
-    padding: 0 15px;
-    text-decoration: none;
-}
 
 .text {
     font-size: 16px;
@@ -158,7 +164,7 @@ a {
 }
 
 .bg-lightgrey{
-    background-color: lightgray;
+    background-color: white;
     padding: 100px 0;
 }
 
@@ -176,11 +182,15 @@ a {
 }
 
 .padding-top {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .padding {
     padding: 40px 0;
+}
+
+.margin-right {
+    margin-right: 50px;
 }
 
 .gap {
@@ -241,6 +251,14 @@ a {
     
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
 /* !IMPORTANTE TOGLIERE L'ALTEZZA DAL CONTENUTO */
 .height {
     height: 300px;
@@ -259,11 +277,36 @@ a {
     border: 1px dashed black;
 }
 
-.square {
-    background-color: coral;
+.squares-content {
     width: 100%;
-    height: calc(66.69vw / 4);
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.square {
+    width: 50%;
+    height: calc(100vw / 6);
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.radio {
+    height: 30px;
+    width: 30px;
+}
 
 
