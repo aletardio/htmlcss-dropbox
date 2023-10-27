@@ -24,6 +24,10 @@ h3 {
     font-size: 50px;
 }
 
+h4 {
+    font-size: 25px;
+}
+
 img {
     width: 85%;
 }
@@ -35,6 +39,10 @@ button {
 
 ul { 
     display: flex;
+}
+
+section {
+    min-height: 500px;
 }
 
 .btn-try-card {
