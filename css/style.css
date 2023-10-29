@@ -337,7 +337,7 @@ a {
 }
 
 .col-33-nogap {
-    width: calc(100% / 3);
+    width: calc(100% / 2.9);
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -382,8 +382,8 @@ a {
 }
 
 .sq-color {
-    width: 260px;
-    height: 260px;
+    width: 290px;
+    height: 280px;
     position: absolute;
     top: 50%;
     left: 50%;
