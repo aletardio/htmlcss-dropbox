@@ -236,7 +236,12 @@ a {
     width: 100%;
 }
 
-.bg-lightblue {
+.bg-lightblue{
+    background-color: #B4D0E7;
+    padding: 70px 0;
+}
+
+.bg-lightblue-2 {
     background-color: #B4D0E7;
     padding: 140px 0;
 }
