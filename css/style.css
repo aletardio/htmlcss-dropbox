@@ -527,3 +527,21 @@ a {
     padding: 10px;
     text-align: center;
 }
+
+hr {
+    border: 0.5px solid rgb(204, 204, 204);
+}
+
+.padding-bottom-quest{
+    padding-bottom: 70px;
+}
+
+.quest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-pad-right {
+    padding-right: 40px;
+}
