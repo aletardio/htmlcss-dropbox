@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-    font-size: 49px;
+    font-size: 45px;
 }
 
 h4 {
@@ -238,7 +238,7 @@ a {
 
 .bg-lightblue {
     background-color: #B4D0E7;
-    padding: 20px 0;
+    padding: 140px 0;
 }
 
 .bg-yellowgreen {
@@ -500,4 +500,30 @@ a {
     color: black;
     padding: 0 40px;
     padding-top: 60px;
+}
+
+.d-flex-col-60 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.bordeaux {
+    color: #61092B;
+}
+
+.btn-try-card-white {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-try-card-white:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
