@@ -457,7 +457,8 @@ li {
 
 .bg-grey {
     background-color: #F5F5F5;
-    height: 30vw;
+    height: 33vw;
+    overflow-y: auto;
 }
 
 .logomain {
