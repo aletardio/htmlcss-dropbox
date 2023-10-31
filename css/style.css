@@ -244,7 +244,7 @@ li {
 .container-logos {
     margin: 0 auto;
     width: 100%;
-    background-color: dodgerblue;
+    background-color: whitesmoke;
 }
 
 .container-footer {
@@ -457,6 +457,7 @@ li {
 
 .bg-grey {
     background-color: #F5F5F5;
+    height: 30vw;
 }
 
 .logomain {
