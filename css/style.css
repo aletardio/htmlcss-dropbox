@@ -404,8 +404,8 @@ li {
 }
 
 .sq-color {
-    width: 290px;
-    height: 280px;
+    width: 85%;
+    height: 85%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -491,7 +491,6 @@ li {
     top: 20px;
     right: 20px;
 }
-
 
 .padding-img-partner {
     padding: 120px 0;
